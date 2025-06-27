@@ -15,7 +15,7 @@ You will need an estimated **60 to 90 minutes** to complete this lab.
 
 ## Table of Contents
 <details>
-<summary>Content of the lab</summary>
+<summary>Click to open</summary>
 
 - [Objectives](#objectives)
 
@@ -64,7 +64,7 @@ You will need an estimated **60 to 90 minutes** to complete this lab.
 </details>
 
 ## Notices and disclaimers
-<details>
+<details open>
 <summary>© 2025 International Business Machines Corporation. No part of this document may be reproduced or transmitted in any form without written permission from IBM.</summary>
 
 © 2025 International Business Machines Corporation. No part of this document may be reproduced or transmitted in any form without written permission from IBM.
@@ -147,13 +147,18 @@ There are different ways to interact with watsonx Code Assistant.
 ![](./images/media/WCA_Intro.png)
 
 In this lab, you will use the **watsonx Code Assistant** to understand and modernize an existing Java Enterprise application.
-</details>
+</details open>
 
 ## Accessing and using the lab environment
-<details>
-<summary>How to use the lab environment</summary>
+
+<!-- Begin of section for TechZone environment (VNC)-->
+<!-- Section for using the TechZone environment (VNC)
+
+<details open>
+<summary>Click to expand</summary>
 
 ### Accessing the lab environment
+
 
 If you are doing this lab as part of an instructor led workshop (virtual or face to face), an environment has already been provisioned for you. The instructor will provide the details for accessing the lab environment.
 
@@ -230,6 +235,7 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
   <br/>
 
 
+
 ### Tips for working in the lab environment     
 
 1. You can resize the viewable area using the **noVNC Settings** options to resize the virtual desktop to fit your screen.
@@ -281,9 +287,68 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
 
 </details>
 
+-->
+<!-- End of section for TechZone environment (VNC)-->
+
+
+<!-- Begin of section for TechXchange -->
+<details open>
+<summary>Click to expand</summary>
+
+### Accessing the lab environment
+1. Access the lab environment from your web browser.
+
+    The lab environment page is displayed, the lab environment contains one (1) Linux VMs, with the Graphical User Interface (GUI) for you to access and work in this lab.
+ 
+    ![](./images/media/image001.png)
+
+2.  Click **Red Hat** icon to access it.
+
+    ![](./images/media/image002.png)
+    
+3.  Click **techzone** user to log in.
+
+    ![](./images/media/image003.png)
+    
+4. Enter the password as: **IBMDem0s!** and press **Enter**.
+
+    ![](./images/media/image004.png)
+    
+    **Note:** That is a numeric zero in **IBMDem0s!**
+
+    The lab VM GUI is displayed.
+
+    ![](./images/media/image005.png)
+
+### Tips for working in the lab environment     
+1.  You can use the VM Desktop tools to fit to window or resize the
+    window.
+
+    ![](./images/media/image006.png)
+
+2.  To copy text from the lab guide into the lab
+    environment you have to use the VM Desktop Send Text tool.
+
+    ![](./images/media/image007.png)
+ 
+    a. Copy the text from the lab guide that you want to paste into the lab environment.
+ 
+    b. Open a terminal window, or a text editor or a web browser in the VM Desktop where you want to copy the text to.
+ 
+    c. Click the **Send Text** icon in the VM Desktop tool bar, paste the text into its window, then again click **Send Text** to send the text to the VM Desktop environment and close its window.
+ 
+    ![](./images/media/image008.png)
+ 
+    The text is now copied to the terminal window, or the text editor or the web browser you opened in the previous step.
+ 
+    ![](./images/media/image009.png)    
+
+
+<!-- End of section for TechXchange -->
+
 ## About the application and the IDE
 
-<details>
+<details open>
 <summary> Details about the application and the used IDE</summary>
 
 Before you get started, here some additional information which should allow you to get a better understanding about the environment and how it has been set up.
@@ -328,7 +393,7 @@ In the prepared lab environment, the Visual Studio Code and the Liberty Tools ar
 </details> 
 
 ## Getting started with the tutorial
-<details>
+<details open>
 <summary> Initial setup </summary>
 
 ### Set up the project and review in VS Code
@@ -511,7 +576,7 @@ In the prepared lab environment, the Visual Studio Code and the Liberty Tools ar
 </details>
 
 ### Scenario: Understand the Java Enterprise application modresorts
-<details>
+<details open>
 <summary> How to use the WCA code explanation capabilities. </summary>
 One of the challenges during an application modernization project is often, that there is no good documentation about the application code available. Often also the developers that developed the application initially are no longer available.
 You will use the explain capabilities in watsonx Code Assistant to get a better understanding of the Java Enterprise applications. 
@@ -657,7 +722,7 @@ Within VS Code, close any open file like the WeatherServlet.java for example.
 </details>
 
 ### Scenario: Modernize the modresorts application from WebSphere Traditional to Liberty
-<details>
+<details open>
 <summary>How to use WCA to modernize the runtime</summary>
 
 <br>
@@ -948,7 +1013,7 @@ Congratulations, you have just migrated an enterprise application from WebSphere
 </details>
 
 ### Scenario: Upgrade the Java version of the modresorts application
-<details>
+<details open>
 <summary>How to use WCA to upgrade the Java version</summary>
 
 <br>
