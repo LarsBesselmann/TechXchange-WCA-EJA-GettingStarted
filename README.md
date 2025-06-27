@@ -151,8 +151,8 @@ In this lab, you will use the **watsonx Code Assistant** to understand and moder
 
 ## Accessing and using the lab environment
 
-<!-- Begin of section for TechZone environment (VNC)-->
-<!-- Section for using the TechZone environment (VNC)
+<!-- Begin of section for TechZone environment (NoVNC)-->
+<!-- Section for using the TechZone environment (NoVNC)
 
 <details open>
 <summary>Click to expand</summary>
