@@ -1,3 +1,12 @@
+![](./images/media/TechXchange_2025_Lab_2644.png)
+
+# Lab 2644 
+
+## Accelerate Java application code modernization with watsonx Code Assistant
+
+
+
+
 # Hands-on lab: watsonx Code Assistance for Enterprise Java Applications
 
 ## Objectives
