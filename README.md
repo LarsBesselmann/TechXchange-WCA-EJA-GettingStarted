@@ -707,10 +707,12 @@ As mentioned above, the chat function within watsonx Code Assistant can also be 
 
     <kbd>![WCA_Chat-askQuestion3](./images/media/WCA_Chat-askQuestion3.png)</kbd>
 
+<!--
 4. In the chat window, enter the question: **What is displayed in the web page if the Weather Underground API is not available?** and take a look at the result.
 
     <kbd>![WCA_Chat-askQuestion4](./images/media/WCA_Chat-askQuestion4.png)</kbd>
     
+-->
 <br>
 
 There are additional questions that you could ask. For example:
