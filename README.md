@@ -801,9 +801,13 @@ The data collection can be found in the file **ta-collection/ AppSrv01.zip**, th
 
 At this point **BEFORE** you actually fix the issues, it is interesting to take a look at the ModResorts application. Because you have the server.xml in place, the application can be run on Liberty, although you will expect that at least some functionality is broken because you have not yet addressed the issues. 
 
-To launch the application, you must start the Liberty server which will be installed under the cover by the related maven process.
+To launch the application, you must start the Liberty server which will
+1. Switch to the **Project Explorer** and expand the **Liberty Dashboard**.
 
-1. Open the **Liberty Dashboard** and find the application **modresorts**.
+    
+    <kbd>![](./images/media/ModResorts_Expand_Liberty_Dashboard.png)</kbd>
+
+2. In the **Liberty Dashboard**, find the application **modresorts**.
 
     If the application is not listed, click the reload button on the right.
 
@@ -815,18 +819,18 @@ To launch the application, you must start the Liberty server which will be insta
 
 
 
-2.	Right-click on the application **modresorts** and select **Start** to start the Liberty instance including the application.
+3.	Right-click on the application **modresorts** and select **Start** to start the Liberty instance including the application.
  
     <kbd>![](./images/media/ModernizeLiberty_Start_Liberty.png)</kbd>
 
-3.	The terminal window will show the startup of the application server.
+4.	The terminal window will show the startup of the application server.
  
     <kbd>![](./images/media/ModernizeLiberty_Start_Liberty-Output.png)</kbd>
 
     Wait until the application server has completed the startup. It can take around a minute as the Liberty server packages required for the application must be downloaded from the Maven repository.
     As you can see in the terminal, Liberty will listen on port 9080. 
 
-4.	Click on the related link in the terminal or open in a browser the URL http://localhost:9080/resorts. 
+5.	Click on the related link in the terminal or open in a browser the URL http://localhost:9080/resorts. 
 
     You should see the mod resorts application UI.
  
@@ -834,19 +838,19 @@ To launch the application, you must start the Liberty server which will be insta
     <kbd>![ModResorts](./images/media/ModResorts.png)</kbd>
 
     
-5.	Let’s take a look at a part of the functionality that is broken. Click the **Logout** button. You should see the following:
+6.	Let’s take a look at a part of the functionality that is broken. Click the **Logout** button. You should see the following:
 
     <kbd>![ModResorts](./images/media/ModResorts-Logout-Error.png)</kbd>
 
     You see this exception because the logout is using a WebSphere API that is not supported on Liberty.
 
-6.	Switch back to VS Code and see the related error message in the VS Code terminal window. You will fix the issue in the next steps.
+7.	Switch back to VS Code and see the related error message in the VS Code terminal window. You will fix the issue in the next steps.
 
 
     <kbd>![ModResorts-error](./images/media/ModernizeLiberty_Logout-error-Output.png)</kbd>
 
 
-7.	Stop the Liberty instance by using the Liberty Dashboard.
+8.	Stop the Liberty instance by using the Liberty Dashboard.
  
     <kbd>![](./images/media/ModernizeLiberty_Stop_Liberty.png)</kbd>
 
