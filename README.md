@@ -531,6 +531,12 @@ In the prepared lab environment, the Visual Studio Code and the Liberty Tools ar
  
     5. Press **Enter** to confirm the key.
 
+    6. If you are asked to select a backend, select **Dallas (DAL)**. 
+
+    <kbd>![](./images/media/WCA_API-Key-4.png)</kbd>
+ 
+8
+
 3. You should see a Chat session.
  
     <kbd>![](./images/media/WCA_Chat-Hello.png)</kbd>
