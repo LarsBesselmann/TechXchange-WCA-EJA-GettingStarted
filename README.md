@@ -435,8 +435,23 @@ In the prepared lab environment, the Visual Studio Code and the Liberty Tools ar
 
         mv modresorts*.zip ~/software
         
+4. Check the version of VS Code via the command
 
-4. Run the following command to set up the modresorts environment.
+        . /home/techzone/Student/labs/wca/showEnv.sh vscode
+
+    If it shows a version **1.104.x** as in the screenshot below, you can continue with the next step. 
+    
+    <kbd>![vscode_version](./images/media/vscode_version.png)</kbd>
+
+    Otherwise run the following command to update vscode:
+
+        . vscode_update.sh
+
+    Once completed, VS Code has been updated. 
+    Feel free to check again the version.
+
+
+5. Run the following command to set up the modresorts environment.
 
         . modresorts_demo_setup.sh
 
@@ -444,7 +459,7 @@ In the prepared lab environment, the Visual Studio Code and the Liberty Tools ar
     
     > **/home/techzone/Student/labs/wca/temp-*/modresorts**
 
-5.  Launch VS Code using the current directory as the root folder for
+6.  Launch VS Code using the current directory as the root folder for
     the workspace
 
         code .
@@ -457,18 +472,19 @@ In the prepared lab environment, the Visual Studio Code and the Liberty Tools ar
     If you get asked to trust the authors, click on "Yes, I trust the authors".
     <kbd>![](./images/media/vscode_TrustAuthors.png)</kbd>
     
-    The VS Code **Welcome** panel is shown.Click on **X** to close it.
+    The VS Code **Welcome** panel is shown. Click on **X** to close it.
 
     <kbd>![](./images/media/vscode_welcome.png)</kbd>
     
+    HINT: If you updated VS Code, you might also see another panel about the new VS Code version. Close that panel as well. 
 
-    On the left, you can see the **Explorer view**. 
+ 7. On the left, you can see the **Explorer view**. 
 
     <kbd>![](./images/media/vscode_modresorts_Explorer.png)</kbd>
 
     <br/>
 
-4.  Review the installed extensions in VS Code that are used for this lab.
+8.  Review the installed extensions in VS Code that are used for this lab.
     
     a.  Click on the **Extensions** icon in the left navigation bar in
         VS Code.
@@ -535,7 +551,6 @@ In the prepared lab environment, the Visual Studio Code and the Liberty Tools ar
 
     <kbd>![](./images/media/WCA_API-Key-4.png)</kbd>
  
-8
 
 3. You should see a Chat session.
  
