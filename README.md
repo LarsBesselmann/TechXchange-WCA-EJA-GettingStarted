@@ -361,7 +361,7 @@ Otherwise, you will need to reserve an environment for the lab. You can obtain o
  
     ![](./images/media/image009.png)    
 
-
+</details>
 <!-- End of section for TechXchange -->
 
 ## About the application and the IDE
