@@ -443,6 +443,8 @@ In the prepared lab environment, the Visual Studio Code and the Liberty Tools ar
     
     <kbd>![vscode_version](./images/media/vscode_version.png)</kbd>
 
+    
+
     Otherwise run the following command to update vscode:
 
         . vscode_update.sh
